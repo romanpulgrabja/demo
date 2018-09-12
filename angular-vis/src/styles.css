@@ -1,0 +1,19 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+    background-image: url("/assets/images/HINTERGRUND.png");
+}
+
+md-sidenav,
+md-sidenav.md-locked-open,
+md-sidenav.md-closed.md-locked-open-add-active {
+    width: 304px !important;
+    min-width: 304px;
+}
+vis  {
+  background-image: url("/assets/images/HINTERGRUND.png");
+  background-color: black;
+}

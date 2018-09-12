@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<section>
+  <mat-toolbar color="primary">
+    <img src="/assets/images/mapmind-logo.png" style="width:auto; height:32px;" />
+
+    <span class="spacer"></span>
+    <button mat-button><mat-icon>account_box</mat-icon>
+      <span class="nav-text">Account</span>
+    </button>
+  </mat-toolbar>
+</section>
+<mat-sidenav-container mode="push">
+  <mat-sidenav #sidenavInfo style="width:304px">
+    <h1 [innerHtml]="clickedNodeName"></h1>
+    <img [src]="clickedNodeImg"/>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+      <!--<textarea [(ngModel)]="import_export" id=input_output></textarea>
+      <button md-fab class="mat-primary" id="import_button" (click)="importNetwork()" >Import</button>-->
+     
+    <div style=" width: 1000px;
+                 height: 1000px;
+                 margin:0px;
+                 border: 1px solid lightgray;" #networkDiv></div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+   
+   

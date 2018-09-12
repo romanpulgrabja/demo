@@ -1,0 +1,78 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+md-sidenav,
+md-sidenav.md-locked-open,
+md-sidenav.md-closed.md-locked-open-add-active {
+    width: 304px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.nav-text{
+    padding: 2px 2px 2px 2px;
+    font-size: 16px
+}
+.material-icons.md-18 { font-size: 14px; }
+.material-icons.md-24 { font-size: 18px; }
+.material-icons.md-36 { font-size: 24px; }
+.material-icons.md-48 { font-size: 36px; }
+.material-icon-subnav {
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+.demo-secondary-text {
+  color: rgba(0, 0, 0, 0.54);
+  margin-left: 8px;
+}
+
+.demo-autocomplete {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mat-form-field {
+  margin-top: 16px;
+}
+
+.mat-form-field-placeholder {
+  color: rgba(255, 255, 255, .6);
+}
+
+.form-field-search {
+  margin-top:51%;
+}
+
+.form-field-icon {
+  margin-right: 20%;
+  margin-bottom: 30%;
+}
+
+.form-field-search-element {
+  width: 350px;
+}
+
+.opacity {
+  background: rgba(255,255,255, .1);
+  position:absolute;
+  width: 355px;
+  height: 45px;
+  margin-top: 49%;
+  margin-left: -0.3%;
+  border-radius: 4px;
+}
+
+.last {
+  display: none;
+  color: #800;
+}
+
+body {
+    background-color: black;
+}
+
+vis {
+  background-color: black;
+
+}

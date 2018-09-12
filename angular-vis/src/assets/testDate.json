@@ -1,0 +1,72 @@
+[
+    {
+       "x": 0,
+       "y": 0,
+       "id": 1,
+       "shape": "circularImage",
+       "img": "https://images-eu.ssl-images-amazon.com/images/I/510AO7UjVPL._AC_US500_QL65_.jpg",
+       "label": "Lean Startup",
+       "connections":[2,3,4,5,6,7],
+       "parent":1
+    },
+    {
+       "x": -250,
+       "y": 433,
+       "id": 2,
+       "shape": "circularImage",
+       "img": "https://images-na.ssl-images-amazon.com/images/I/71nd%2Baoqy3L._AC_UL160_SR102,160_.jpg",
+       "label": "Zero to One",
+       "connections":[],
+       "parent":1
+    },
+    {
+       "x": 250,
+       "y": 433,
+       "id": 3,
+       "shape": "circularImage",
+       "img": "https://images-eu.ssl-images-amazon.com/images/I/51Xgz4SQIbL._AC_US500_QL65_.jpg",
+       "label": "Startup Confidential",
+       "connections":[],
+       "parent":1
+    },
+    {
+       "x": 500,
+       "y": 0,
+       "id": 4,
+       "shape": "circularImage",
+       "img": "https://images-eu.ssl-images-amazon.com/images/I/41n2UmmCj3L._AC_US500_QL65_.jpg",
+       "label": "The Startup Formular",
+       "connections":[],
+       "parent":1
+    },
+    {
+       "x": 250,
+       "y": -433,
+       "id": 5,
+       "shape": "circularImage",
+       "img": "https://images-eu.ssl-images-amazon.com/images/I/51paXS1DTpL._AC_US500_QL65_.jpg",
+       "label": "Lean Analytics",
+       "connections":[],
+       "parent":1
+    },
+    {
+       "x": -250,
+       "y": -433,
+       "id": 6,
+       "shape": "circularImage",
+       "img": "https://images-eu.ssl-images-amazon.com/images/I/41US9Kv1s5L._AC_US500_QL65_.jpg",
+       "label": "Lean Pricing",
+       "connections":[],
+       "parent":1
+    },
+    {
+       "x": -500,
+       "y": 0,
+       "id": 7,
+       "shape": "circularImage",
+       "img": "https://images-eu.ssl-images-amazon.com/images/I/41sJmC65zGL._AC_US500_QL65_.jpg",
+       "label": "Start up",
+       "connections":[],
+       "parent":1
+    }
+]

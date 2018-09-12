@@ -1,0 +1,1001 @@
+[
+  {
+    "parent": "Null",
+    "links": [],
+    "name": "0600.1100_Hormone",
+    "score": 80,
+    "id": "530683",
+    "rasin": "586762",
+    "level": 0,
+    "connections": [
+      "532526",
+      "532525",
+      "532523",
+      "532524",
+      "532527"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "530683",
+    "links": [],
+    "name": "0600.1100.0400_Pankreashormone",
+    "score": 30,
+    "id": "532526",
+    "rasin": "586762",
+    "level": 1,
+    "connections": [
+      "548983",
+      "548975",
+      "548981"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "530683",
+    "links": [],
+    "name": "0600.1100.0300_Hormone der Nebenniere",
+    "score": 25,
+    "id": "532525",
+    "rasin": "586758",
+    "level": 1,
+    "connections": [
+      "548972",
+      "548977",
+      "543001",
+      "543094",
+      "543097"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "530683",
+    "links": [],
+    "name": "0600.1100.0100_Grundlagen",
+    "score": 12,
+    "id": "532523",
+    "rasin": "586238",
+    "level": 1,
+    "connections": [
+      "548963",
+      "548961",
+      "542997"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "530683",
+    "links": [],
+    "name": "0600.1100.0200_Hypothalamus- und Hypophysenhormone",
+    "score": 5,
+    "id": "532524",
+    "rasin": "586754",
+    "level": 1,
+    "connections": [
+      "586751",
+      "542999"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "530683",
+    "links": [],
+    "name": "0600.1100.0500_Schilddrüsenhormone, \nCalciumhaushalt,\nWachstumshormone",
+    "score": 3,
+    "id": "532527",
+    "rasin": "543099",
+    "level": 1,
+    "connections": [
+      "543099",
+      "543101",
+      "543105"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532526",
+    "links": [],
+    "name": "Diabetes mellitus: Klinik fÃ¼r Vorkliniker",
+    "score": 21,
+    "id": "548983",
+    "rasin": "586762",
+    "level": 2,
+    "connections": [
+      "586288"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532525",
+    "links": [],
+    "name": "Steroidhormone: Synthese",
+    "score": 15,
+    "id": "548972",
+    "rasin": "586758",
+    "level": 2,
+    "connections": [
+      "586268"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532526",
+    "links": [],
+    "name": "Insulin",
+    "score": 5,
+    "id": "548975",
+    "rasin": "586283",
+    "level": 2,
+    "connections": [
+      "586282"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532523",
+    "links": [],
+    "name": "Hormone: Regulation der Konzentration",
+    "score": 5,
+    "id": "548963",
+    "rasin": "586238",
+    "level": 2,
+    "connections": [
+      "586237"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532525",
+    "links": [],
+    "name": "Katecholamine",
+    "score": 5,
+    "id": "548977",
+    "rasin": "586278",
+    "level": 2,
+    "connections": [
+      "586277"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532523",
+    "links": [],
+    "name": "Hormone: Eigenschaften und Einteilung",
+    "score": 4,
+    "id": "548961",
+    "rasin": "586234",
+    "level": 2,
+    "connections": [
+      "586233"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532524",
+    "links": [],
+    "name": "Hypothalamus- und Hypophysenhormone",
+    "score": 3,
+    "id": "586751",
+    "rasin": "586754",
+    "level": 2,
+    "connections": [
+      "586752"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532526",
+    "links": [],
+    "name": "Glucagon",
+    "score": 1,
+    "id": "548981",
+    "rasin": "586287",
+    "level": 2,
+    "connections": [
+      "586287"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "532527",
+    "links": [],
+    "name": "SchilddrÃ¼senhormone Thyroxin (T4) und Triiodthyronin (T3)",
+    "score": 0,
+    "id": "543099",
+    "connections": [],
+    "level": 2,
+    "asin": "543099",
+    "img": "none"
+  },
+  {
+    "parent": "532527",
+    "links": [],
+    "name": "Parathormon, Calcitriol (Vitamin D) und Calcitonin",
+    "score": 0,
+    "id": "543101",
+    "connections": [],
+    "level": 2,
+    "asin": "543101",
+    "img": "none"
+  },
+  {
+    "parent": "532527",
+    "links": [],
+    "name": "Wachstumshormon (Growth Hormon, Somatotropin)",
+    "score": 0,
+    "id": "543105",
+    "connections": [],
+    "level": 2,
+    "asin": "543105",
+    "img": "none"
+  },
+  {
+    "parent": "532523",
+    "links": [],
+    "name": "Endokrine Organe: Ãœberblick",
+    "score": 0,
+    "id": "542997",
+    "connections": [],
+    "level": 2,
+    "asin": "542997",
+    "img": "none"
+  },
+  {
+    "parent": "532524",
+    "links": [],
+    "name": "Hypothalamus- und Hypophysenhormone",
+    "score": 0,
+    "id": "542999",
+    "connections": [],
+    "level": 2,
+    "asin": "542999",
+    "img": "none"
+  },
+  {
+    "parent": "532525",
+    "links": [],
+    "name": "Nebennierenhormone: Ãœberblick",
+    "score": 0,
+    "id": "543001",
+    "connections": [],
+    "level": 2,
+    "asin": "543001",
+    "img": "none"
+  },
+  {
+    "parent": "532525",
+    "links": [],
+    "name": "Mineralcorticoide: Wirkungen und Regulation",
+    "score": 0,
+    "id": "543094",
+    "connections": [],
+    "level": 2,
+    "asin": "543094",
+    "img": "none"
+  },
+  {
+    "parent": "532525",
+    "links": [],
+    "name": "Glucocorticoide und Androgene: Wirkungen und Regulation",
+    "score": 0,
+    "id": "543097",
+    "connections": [],
+    "level": 2,
+    "asin": "543097",
+    "img": "none"
+  },
+  {
+    "parent": "548983",
+    "links": [],
+    "name": "Diabetes mellitus: Klinik fÃ¼r Vorkliniker",
+    "score": 20,
+    "id": "586288",
+    "rasin": "586762",
+    "level": 3,
+    "connections": [
+      "586761",
+      "586768",
+      "586773",
+      "586749",
+      "586289",
+      "586290"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "548972",
+    "links": [],
+    "name": "Steroidhormone: Synthese",
+    "score": 14,
+    "id": "586268",
+    "rasin": "586758",
+    "level": 3,
+    "connections": [
+      "586757",
+      "586755",
+      "586269",
+      "586270",
+      "586271",
+      "586272"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "548975",
+    "links": [],
+    "name": "Insulin",
+    "score": 4,
+    "id": "586282",
+    "rasin": "586283",
+    "level": 3,
+    "connections": [
+      "586283",
+      "586284",
+      "586285",
+      "586286"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "548963",
+    "links": [],
+    "name": "Hormone: Regulation der Konzentration",
+    "score": 4,
+    "id": "586237",
+    "rasin": "586238",
+    "level": 3,
+    "connections": [
+      "586238",
+      "586239",
+      "586240",
+      "586241"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "548977",
+    "links": [],
+    "name": "Katecholamine",
+    "score": 4,
+    "id": "586277",
+    "rasin": "586278",
+    "level": 3,
+    "connections": [
+      "586278",
+      "586279",
+      "586280",
+      "586281"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "548961",
+    "links": [],
+    "name": "Hormone: Eigenschaften und Einteilung",
+    "score": 3,
+    "id": "586233",
+    "rasin": "586234",
+    "level": 3,
+    "connections": [
+      "586234",
+      "586235",
+      "586236"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "586751",
+    "links": [],
+    "name": "Proopiomelanocortin und seine Derivate",
+    "score": 2,
+    "id": "586752",
+    "rasin": "586754",
+    "level": 3,
+    "connections": [
+      "586753"
+    ],
+    "img": "files/json/img/Physio_010800_POMC.png"
+  },
+  {
+    "parent": "548981",
+    "links": [],
+    "name": "Glucagon",
+    "score": 0,
+    "id": "586287",
+    "connections": [],
+    "level": 3,
+    "asin": "586287",
+    "img": "none"
+  },
+  {
+    "parent": "586288",
+    "links": [],
+    "name": "SchilddrÃ¼senhormone Thyroxin (T4) und Triiodthyronin (T3)",
+    "score": 6,
+    "id": "586761",
+    "rasin": "586762",
+    "level": 4,
+    "connections": [
+      "586762",
+      "586763",
+      "586764",
+      "586765",
+      "586766",
+      "586767"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "586288",
+    "links": [],
+    "name": "Parathormon, Calcitriol (Vitamin D) und Calcitonin",
+    "score": 4,
+    "id": "586768",
+    "rasin": "586769",
+    "level": 4,
+    "connections": [
+      "586769",
+      "586770",
+      "586771",
+      "586772"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Glucocorticoide und Androgene: Wirkungen und Regulation",
+    "score": 4,
+    "id": "586757",
+    "rasin": "586758",
+    "level": 4,
+    "connections": [
+      "586758",
+      "586759",
+      "586760",
+      "617152"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "586288",
+    "links": [],
+    "name": "Wachstumshormon (growth hormon, Somatotropin)",
+    "score": 2,
+    "id": "586773",
+    "rasin": "586774",
+    "level": 4,
+    "connections": [
+      "586774",
+      "586775"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "586288",
+    "links": [],
+    "name": "Endokrine Organe: Ãœberblick",
+    "score": 1,
+    "id": "586749",
+    "rasin": "586750",
+    "level": 4,
+    "connections": [
+      "586750"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "586752",
+    "links": [],
+    "name": "Nebennierenhormone: Ãœberblick",
+    "score": 1,
+    "id": "586753",
+    "rasin": "586754",
+    "level": 4,
+    "connections": [
+      "586754"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Mineralcorticoide: Wirkungen und Regulation",
+    "score": 1,
+    "id": "586755",
+    "rasin": "586756",
+    "level": 4,
+    "connections": [
+      "586756"
+    ],
+    "img": "none"
+  },
+  {
+    "parent": "586282",
+    "links": [],
+    "name": "Insulinsekretion und Signaltransduktion",
+    "score": 0,
+    "id": "586283",
+    "connections": [],
+    "level": 4,
+    "asin": "586283",
+    "img": "files/json/img/Bioch_014600_Steckbrief.png"
+  },
+  {
+    "parent": "586282",
+    "links": [],
+    "name": "Synthese des Insulins",
+    "score": 0,
+    "id": "586284",
+    "connections": [],
+    "level": 4,
+    "asin": "586284",
+    "img": "files/json/img/Bioch_014600_Insulin_Synthese.png"
+  },
+  {
+    "parent": "586282",
+    "links": [],
+    "name": "Mechanismus der InsulinausschÃ¼ttung",
+    "score": 0,
+    "id": "586285",
+    "connections": [],
+    "level": 4,
+    "asin": "586285",
+    "img": "files/json/img/Bioch_014600_Insulinausschuettung_Mechanismus.png"
+  },
+  {
+    "parent": "586282",
+    "links": [],
+    "name": "Signaltransduktion am Insulinrezeptor",
+    "score": 0,
+    "id": "586286",
+    "connections": [],
+    "level": 4,
+    "asin": "586286",
+    "img": "files/json/img/Bioch_014600_Insulinrezeptor_Signaltransduktion.png"
+  },
+  {
+    "parent": "586288",
+    "links": [],
+    "name": "Teufelskreis beim Diabetes mellitus",
+    "score": 0,
+    "id": "586289",
+    "connections": [],
+    "level": 4,
+    "asin": "586289",
+    "img": "files/json/img/Bioch_014900_Teufelskreis_Dm.png"
+  },
+  {
+    "youtube": "youtube.com/watch?v=fvPNo8j509o",
+    "parent": "586288",
+    "level": 4,
+    "name": "Typ-1-Diabetes",
+    "score": 0,
+    "id": "586290",
+    "links": [],
+    "connections": [],
+    "asin": "586290",
+    "img": "none"
+  },
+  {
+    "youtube": "youtube.com/watch?v=vt8avh6mp5Q",
+    "parent": "586288",
+    "level": 4,
+    "name": "Typ-2-Diabetes",
+    "score": 0,
+    "id": "586291",
+    "links": [],
+    "connections": [],
+    "asin": "586291",
+    "img": "none"
+  },
+  {
+    "parent": "586233",
+    "links": [],
+    "name": "Substanzklassen von Hormonen",
+    "score": 0,
+    "id": "586234",
+    "connections": [],
+    "level": 4,
+    "asin": "586234",
+    "img": "files/json/img/Bioch_012800_Steckbrief.png"
+  },
+  {
+    "parent": "586233",
+    "links": [],
+    "name": "Endokrine, parakrine und autokrine Hormonwirkung",
+    "score": 0,
+    "id": "586235",
+    "connections": [],
+    "level": 4,
+    "asin": "586235",
+    "img": "files/json/img/Bioch_012800_Hormonwirkung_endo_para_auto.png"
+  },
+  {
+    "parent": "586233",
+    "links": [],
+    "name": "Substanzklassen der Hormone",
+    "score": 0,
+    "id": "586236",
+    "connections": [],
+    "level": 4,
+    "asin": "586236",
+    "img": "files/json/img/Bioch_012800_Substanzklassen_Hormone.png"
+  },
+  {
+    "parent": "586237",
+    "links": [],
+    "name": "Beispiel fÃ¼r einen einfachen und einen komplexen Regelkreis (stark vereinfacht)",
+    "score": 0,
+    "id": "586238",
+    "connections": [],
+    "level": 4,
+    "asin": "586238",
+    "img": "files/json/img/Bioch_012810_Steckbrief.png"
+  },
+  {
+    "parent": "586237",
+    "links": [],
+    "name": "Einfacher Regelkreis",
+    "score": 0,
+    "id": "586239",
+    "connections": [],
+    "level": 4,
+    "asin": "586239",
+    "img": "files/json/img/Bioch_012810_einfacher_Regelkreis.png"
+  },
+  {
+    "parent": "586237",
+    "links": [],
+    "name": "Neuroendokriner Regelkreis als Beispiel eines komplexen Regelkreises",
+    "score": 0,
+    "id": "586240",
+    "connections": [],
+    "level": 4,
+    "asin": "586240",
+    "img": "files/json/img/Bioch_012810_neuroendokriner_Regelkreis.png"
+  },
+  {
+    "youtube": "youtube.com/watch?v=7WlbbYnkVf4&index=2&list=PLXwnjgs_UWpIyKAZ9yaEUbv8Sz1AMve45",
+    "parent": "586237",
+    "level": 4,
+    "name": "Regulation der Hormonkonzentration durch Regelkreise",
+    "score": 0,
+    "id": "586241",
+    "links": [],
+    "connections": [],
+    "asin": "586241",
+    "img": "none"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Ãœberblick Ã¼ber die Steroidhormonsynthese",
+    "score": 0,
+    "id": "586269",
+    "connections": [],
+    "level": 4,
+    "asin": "586269",
+    "img": "files/json/img/Bioch_013700_Steckbrief.png"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Synthese von Pregnenolon aus Cholesterin",
+    "score": 0,
+    "id": "586270",
+    "connections": [],
+    "level": 4,
+    "asin": "586270",
+    "img": "files/json/img/Bioch_013700_Cholesterin_Pregnenolon.png"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Synthese der Mineralcorticoide",
+    "score": 0,
+    "id": "586271",
+    "connections": [],
+    "level": 4,
+    "asin": "586271",
+    "img": "files/json/img/Bioch_013700_Mineralcorticoide_Synthese.png"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Synthese der Glucocorticoide",
+    "score": 0,
+    "id": "586272",
+    "connections": [],
+    "level": 4,
+    "asin": "586272",
+    "img": "files/json/img/Bioch_013700_Glucocorticoide_Synthese.png"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Umwandlung von Cortisol in Cortison",
+    "score": 0,
+    "id": "586273",
+    "connections": [],
+    "level": 4,
+    "asin": "586273",
+    "img": "files/json/img/Bioch_013700_Cortisol_Cortison.png"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Synthese der Sexualhormone",
+    "score": 0,
+    "id": "586274",
+    "connections": [],
+    "level": 4,
+    "asin": "586274",
+    "img": "files/json/img/Bioch_013700_Sexualhormone_Synthese.png"
+  },
+  {
+    "parent": "586268",
+    "links": [],
+    "name": "Reduktion von Testosteron zu 5-Dihydrotestosteron",
+    "score": 0,
+    "id": "586275",
+    "connections": [],
+    "level": 4,
+    "asin": "586275",
+    "img": "files/json/img/Bioch_013700_Testosteron_Dihydrotestosteron.png"
+  },
+  {
+    "parent": "586277",
+    "links": [],
+    "name": "Ãœberblick Ã¼ber die Katecholaminbiosynthese",
+    "score": 0,
+    "id": "586278",
+    "connections": [],
+    "level": 4,
+    "asin": "586278",
+    "img": "files/json/img/Bioch_014500_Steckbrief.png"
+  },
+  {
+    "parent": "586277",
+    "links": [],
+    "name": "Biosynthese der Katecholamine",
+    "score": 0,
+    "id": "586279",
+    "connections": [],
+    "level": 4,
+    "asin": "586279",
+    "img": "files/json/img/Bioch_014500_Katecholamine_Synthese.png"
+  },
+  {
+    "parent": "586277",
+    "links": [],
+    "name": "Abbau von Adrenalin zu VanillinmandelsÃ¤ure",
+    "score": 0,
+    "id": "586280",
+    "connections": [],
+    "level": 4,
+    "asin": "586280",
+    "img": "files/json/img/Bioch_014500_Katecholamine_Abbau.png"
+  },
+  {
+    "parent": "586277",
+    "links": [],
+    "name": "Substantia nigra bei Morbus-Parkinson-Patienten",
+    "score": 0,
+    "id": "586281",
+    "connections": [],
+    "level": 4,
+    "asin": "586281",
+    "img": "files/json/img/Bioch_014500_Substantia_nigra_MP.png"
+  },
+  {
+    "parent": "586761",
+    "links": [],
+    "name": "Struktur der SchilddrÃ¼senhormone",
+    "score": 0,
+    "id": "586762",
+    "connections": [],
+    "level": 5,
+    "asin": "586762",
+    "img": "files/json/img/Physio_011200_Struktur_Schilddruesenhormone.png"
+  },
+  {
+    "parent": "586761",
+    "links": [],
+    "name": "Biosynthese der SchilddrÃ¼senhormone",
+    "score": 0,
+    "id": "586763",
+    "connections": [],
+    "level": 5,
+    "asin": "586763",
+    "img": "files/json/img/Physio_011200_Synthese_Schilddruesenhormone.png"
+  },
+  {
+    "parent": "586761",
+    "links": [],
+    "name": "Umwandlung von Thyroxin (T4) in Triiodthyronin (T3)",
+    "score": 0,
+    "id": "586764",
+    "connections": [],
+    "level": 5,
+    "asin": "586764",
+    "img": "files/json/img/Physio_011200_T4_nachT3.png"
+  },
+  {
+    "parent": "586761",
+    "links": [],
+    "name": "Struktur von aktivem Triiodthyronin (T3) und inaktivem reversen Triiodthyronin (rT3)",
+    "score": 0,
+    "id": "586765",
+    "connections": [],
+    "level": 5,
+    "asin": "586765",
+    "img": "files/json/img/Physio_011200_Struktur_T3_und_rT3.png"
+  },
+  {
+    "parent": "586761",
+    "links": [],
+    "name": "Regelkreis der SchilddrÃ¼senhormone",
+    "score": 0,
+    "id": "586766",
+    "connections": [],
+    "level": 5,
+    "asin": "586766",
+    "img": "files/json/img/Physio_011200_Regelkreis_Schilddruese.png"
+  },
+  {
+    "parent": "586761",
+    "links": [],
+    "name": "Morbus Basedow",
+    "score": 0,
+    "id": "586767",
+    "connections": [],
+    "level": 5,
+    "asin": "586767",
+    "img": "files/json/img/Physio_011200_Morbus_Basedow.png"
+  },
+  {
+    "parent": "586768",
+    "links": [],
+    "name": "Hormoneller Regelkreis zur Kontrolle der Ca2+-Konzentration im Plasma",
+    "score": 0,
+    "id": "586769",
+    "connections": [],
+    "level": 5,
+    "asin": "586769",
+    "img": "files/json/img/Physio_011400_Regelkreis_Parathormon.png"
+  },
+  {
+    "youtube": "08.10.2015 11:15:24",
+    "parent": "586768",
+    "level": 5,
+    "name": "Hyperprathyreoidismus: Entstehung und Therapie",
+    "score": 0,
+    "id": "586770",
+    "links": [],
+    "connections": [],
+    "asin": "586770",
+    "img": "none"
+  },
+  {
+    "parent": "586768",
+    "links": [],
+    "name": "Biosynthese von Calcitriol",
+    "score": 0,
+    "id": "586771",
+    "connections": [],
+    "level": 5,
+    "asin": "586771",
+    "img": "files/json/img/Physio_011400_Biosynthese_Calcitriol.png"
+  },
+  {
+    "parent": "586768",
+    "links": [],
+    "name": "Zusammenwirken von Calcitriol und Parathormon im Calciumstoffwechsel",
+    "score": 0,
+    "id": "586772",
+    "connections": [],
+    "level": 5,
+    "asin": "586772",
+    "img": "files/json/img/Physio_011400_Zusammenwirken_Calcitriol_PTH.png"
+  },
+  {
+    "parent": "586773",
+    "links": [],
+    "name": "Sekretionsrhythmus von Somatostatin, Somatoliberin und Somatotropin",
+    "score": 0,
+    "id": "586774",
+    "connections": [],
+    "level": 5,
+    "asin": "586774",
+    "img": "files/json/img/Physio_011500_Rhythmik_Wachstumshormon.png"
+  },
+  {
+    "parent": "586773",
+    "links": [],
+    "name": "Neuroendokriner Regelkreis des Somatotropins",
+    "score": 0,
+    "id": "586775",
+    "connections": [],
+    "level": 5,
+    "asin": "586775",
+    "img": "files/json/img/Physio_011500_Regelkreis_Somatotropin.png"
+  },
+  {
+    "parent": "586749",
+    "links": [],
+    "name": "Ãœberblick Ã¼ber die endokrinen Organe",
+    "score": 0,
+    "id": "586750",
+    "connections": [],
+    "level": 5,
+    "asin": "586750",
+    "img": "files/json/img/Physio_010750_Steckbrief.png"
+  },
+  {
+    "parent": "586753",
+    "links": [],
+    "name": "Die endokrine Achse der Nebennierenhormone",
+    "score": 0,
+    "id": "586754",
+    "connections": [],
+    "level": 5,
+    "asin": "586754",
+    "img": "files/json/img/Physio_010900_Endokrine_Achse_Nebenniere.png"
+  },
+  {
+    "parent": "586755",
+    "links": [],
+    "name": "Wirkungsmechanismus von Aldosteron",
+    "score": 0,
+    "id": "586756",
+    "connections": [],
+    "level": 5,
+    "asin": "586756",
+    "img": "files/json/img/Physio_011000_Wirkmechanismus_Aldosteron.png"
+  },
+  {
+    "parent": "586757",
+    "links": [],
+    "name": "Regelkreis der Cortisolfreisetzung.",
+    "score": 0,
+    "id": "586758",
+    "connections": [],
+    "level": 5,
+    "asin": "586758",
+    "img": "files/json/img/Physio_011100_Cortisolfreisetzung.png"
+  },
+  {
+    "parent": "586757",
+    "links": [],
+    "name": "Morbus Cushing",
+    "score": 0,
+    "id": "586759",
+    "connections": [],
+    "level": 5,
+    "asin": "586759",
+    "img": "files/json/img/Physio_011100_AGS.png"
+  },
+  {
+    "parent": "586757",
+    "links": [],
+    "name": "Morbus Addison: Hyperpigmentierung der Handlinien",
+    "score": 0,
+    "id": "586760",
+    "connections": [],
+    "level": 5,
+    "asin": "586760",
+    "img": "files/json/img/Physio_011100_Morbus_Addison.png"
+  },
+  {
+    "parent": "586757",
+    "links": [],
+    "name": "Physio_011100_Cushing_Syndrom.png",
+    "score": 0,
+    "id": "617152",
+    "connections": [],
+    "level": 5,
+    "asin": "617152",
+    "img": "files/json/img/Physio_011100_Cushing_Syndrom.png"
+  }
+]
