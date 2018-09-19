@@ -7,6 +7,7 @@ import {assertNotEqual} from '@angular/core/src/render3/assert';
 import {assertNotNull} from '@angular/compiler/src/output/output_ast';
 import {TypeInfo} from 'ts-node';
 import {containerStart} from '@angular/core/src/render3/instructions';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: "vis",
@@ -49,7 +50,7 @@ export class visComponent {
   }
 
   addConnections(elem, index) {
-    // need to replace this with a tree of the network, then get child direct children of the element
+    // need to replace this with a tree of the network, then get child direct children of the element ==> ??
     elem.connections = this.network.getConnectedNodes(index);
   }
 
@@ -125,33 +126,48 @@ export class visComponent {
             this.lastClusterZoomLevel = this.network.getScale();
           }
         });
-
+        //function to determine zoomdepth of graph VERY fast
+        function getMaxZoomLevel() {
+          return inputData.reduce((max, p) => p.level > max ? p.level : max, inputData[0].level);
+        };
+        var maxLevel = getMaxZoomLevel();
+        console.log(maxLevel);
+        // for (let level = maxLevel; level > 0; level--) {
+        //   this.clusterByCid(level);
+        // }
+        console.log(this.network.body);
+        let zoomlevel = getMaxZoomLevel(); //setting intial value for zoomlevel at 0
 
         // we use the zoom event for our clustering
         this.network.on('zoom', (params) => {
-          var zoomlevel = 0; //setting intial value for zoomlevel at 0
-          if (params.direction === '-') {
+          if (params.direction === '-' && zoomlevel >= 0) {
             if (params.scale < this.lastClusterZoomLevel * this.clusterFactor) {
-              res = this.clusterByCid(res, zoomlevel);
-              zoomlevel += 1;
+              //console.log(params.scale);
+              this.clusterByCid(zoomlevel);
+              if (zoomlevel !== 0) {
+                zoomlevel -= 1;
+              }
               if (this.lastClusterZoomLevel > 0.7 || this.lastClusterZoomLevel < 0.5) {
                 this.lastClusterZoomLevel = 0.75;
               }
+              //console.log(zoomlevel);
               this.lastClusterZoomLevel = params.scale;
             }
             //only trigger open cluster if there is a cluster to open
-            //TODO: Schrittweite definieren => DONE
-            //TODO: function to get ID of zoomed on node/cluster
-          } else if (params.direction = '+' && this.network.body.nodes['-1'] !== undefined){
-            for (let cluster in this.network.body.nodes) {
-              if (this.network.body.nodes[cluster].isCluster === true) {
-                this.network.openCluster(this.network.body.nodes[cluster].id);
+          } else if (params.direction === '+' && zoomlevel < maxLevel) {  //&& this.network.body.nodes['-1'] !== undefined
+            console.log('scale: ' + params.scale);
+            console.log('zoomlevel: ' + (this.lastClusterZoomLevel * this.clusterFactor));
+            if (params.scale  >= this.lastClusterZoomLevel * this.clusterFactor) {
+              for (let cluster in this.network.body.nodes) {
+                  if (this.network.body.nodes[cluster].isCluster === true && this.network.body.nodes[cluster].options.level === zoomlevel) {
+                    this.network.openCluster(this.network.body.nodes[cluster].id);
+                  }
+                }
               }
-            }
-            // this.network.openCluster('--1');
-            // this.network.openCluster('-1');
-            // this.network.openCluster('-6');
-            // this.network.openCluster('-7');
+              zoomlevel += 1;
+              //console.log(zoomlevel);
+              this.lastClusterZoomLevel = params.scale;
+
           }
         });
         // This needs to go as it colides with sidenav
@@ -163,12 +179,11 @@ export class visComponent {
         // show sidenav on single click
         this.network.on('click', (params) => {
           if (params.nodes.length > 0) {
-            var clickedId = params.nodes[0]
-            var inputData = this.test;//JSON.parse(inputValue) => res to show sidenav again
+            var clickedId = params.nodes[0];
+            var inputData = this.test;//JSON.parse(inputValue) => res to show sidenav again   need to find correct type cast
             var clickedNode = inputData.filter(
               function(inputData) { return inputData['id'] === clickedId;
               });
-
             this.clickedNodeName = clickedNode[0].label;
             this.clickedNodeImg = clickedNode[0].img;
 
@@ -188,7 +203,7 @@ export class visComponent {
   getNodeData(data) {
     var networkNodes = [];
     data.forEach((elem, index, array) => {
-      networkNodes.push({id: elem.id, x: elem.x, y: elem.y, parent: elem.parent, fixed: true, physics: false, shape: elem.shape, image: elem.img, label: elem.label, group: elem.group});
+      networkNodes.push({id: elem.id, x: elem.x, y: elem.y, parent: elem.parent, fixed: true, physics: false, shape: elem.shape, image: elem.img, label: elem.label, group: elem.group, level: elem.level});
     });
     return new DataSet(networkNodes);
   }
@@ -242,7 +257,7 @@ export class visComponent {
     this.exportArea.style.height = (1 + this.exportArea.scrollHeight) + "px";
   }
 
-  clusterByCid(res, zoomLevel) {  //zoomlevel probably obsolete as the level can be take from the visible node indices
+  clusterByCid(zoomLevel) {  //zoomlevel probably obsolete as the level can be take from the visible node indices
 
     //this.network.setData(data);
     //this needs to go into vis.js.clusterByID.
@@ -263,10 +278,11 @@ export class visComponent {
     //   }
     // }
 
-    var updateData = this.network.clusterByID(JSON.stringify(res)); //, clusterOptionsByData options are now dynamically created inside of visjs
+    //var updateData =
+      this.network.clusterByID(zoomLevel); //, clusterOptionsByData options are now dynamically created inside of visjs
     console.log(this.network.body);
 
-    return updateData;
+    //return updateData;
   }
 
   //new function cluster rings takes node pos and checks for children
