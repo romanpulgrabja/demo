@@ -339,51 +339,8 @@
     "connections":[],
     "parent":7,
     "level": 2
-  },
-  {
-    "x": -180,
-    "y": 533,
-    "id": 32,
-    "shape": "circularImage",
-    "img": "https://images-eu.ssl-images-amazon.com/images/I/41sJmC65zGL._AC_US500_QL65_.jpg",
-    "label": "8-1",
-    "connections":[],
-    "parent":8,
-    "level": 3
-  },
-  {
-    "x": -320,
-    "y": 533,
-    "id": 33,
-    "shape": "circularImage",
-    "img": "https://images-eu.ssl-images-amazon.com/images/I/41sJmC65zGL._AC_US500_QL65_.jpg",
-    "label": "8-2",
-    "connections":[],
-    "parent":8,
-    "level": 3
-  },
-  {
-    "x": 180,
-    "y": 533,
-    "id": 34,
-    "shape": "circularImage",
-    "img": "https://images-eu.ssl-images-amazon.com/images/I/41sJmC65zGL._AC_US500_QL65_.jpg",
-    "label": "9-1",
-    "connections":[],
-    "parent":12,
-    "level": 3
-  },
-  {
-    "x": 320,
-    "y": 533,
-    "id": 35,
-    "shape": "circularImage",
-    "img": "https://images-eu.ssl-images-amazon.com/images/I/41sJmC65zGL._AC_US500_QL65_.jpg",
-    "label": "9-2",
-    "connections":[],
-    "parent":12,
-    "level": 3
   }
+
 
 
 

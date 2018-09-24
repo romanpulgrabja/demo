@@ -64,7 +64,13 @@ md-sidenav.md-closed.md-locked-open-add-active {
   color: #800;
 }
 
-body {
+.body {
     background-color: black;
-    background-image: url("../../assets/images/HINTERGRUND.png");
 }
+mat-sidenav-content{
+  background-image: url("../../assets/images/HINTERGRUND.png");
+}
+vis {
+  background-color: transparent;
+}
+
