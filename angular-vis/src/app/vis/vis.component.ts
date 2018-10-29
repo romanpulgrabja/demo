@@ -68,7 +68,7 @@ export class visComponent {
   }
 
   importNetwork() {
-    this.http.get('./assets/testDate2.json').subscribe(res => {
+    this.http.get('./assets/romanized_fix.json').subscribe(res => {
         let inputData = [];
         for (let i in res) {
           inputData.push(res[i]);
